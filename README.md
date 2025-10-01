@@ -17,6 +17,16 @@
 
 ---
 
+<p align="center">
+  <!-- Badges -->
+  <img src="https://img.shields.io/badge/Status-Finished-brightgreen?style=for-the-badge&logo=vercel" alt="Status"/>
+  <img src="https://img.shields.io/badge/Responsive-Yes-blue?style=for-the-badge&logo=css3" alt="Responsive"/>
+  <img src="https://img.shields.io/badge/Made%20with-JavaScript-yellow?style=for-the-badge&logo=javascript" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/API-AwesomeAPI-orange?style=for-the-badge&logo=api" alt="API"/>
+</p>
+
+---
+
 ## 🌐 Live Demo
 
 👉 [**Click here to try the project online**](https://gcamargocoder.github.io/Conversor_Moedas_Responsivo_API/)  
@@ -71,6 +81,5 @@ It uses the **AwesomeAPI** to fetch real-time exchange rates and allows conversi
 Made with ♥ by **Gilson Camargo** 🚀  
 
 🔗 [LinkedIn](https://www.linkedin.com/in/gilcamargo/) | 🔗 [GitHub](https://github.com/gcamargocoder)
-
 
 
