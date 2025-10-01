@@ -1,0 +1,247 @@
+/* ====== TOGGLE BUTTON ====== */
+.theme-toggle {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+#theme-button {
+    background: #39635e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+}
+
+#theme-button:hover {
+    background: #2d4a46;
+}
+
+/* ====== DARK MODE ====== */
+body.dark-mode {
+    background: #1e1e1e;
+    color: #ddd;
+}
+
+body.dark-mode .container {
+    background: #2b2b2b;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode h2,
+body.dark-mode label {
+    color: #80cbc4;
+}
+
+body.dark-mode select,
+body.dark-mode input {
+    background: #3a3a3a;
+    color: #fff;
+    border: 1px solid #80cbc4;
+}
+
+body.dark-mode .result-box {
+    background: #333;
+    color: #80cbc4;
+}
+
+body.dark-mode button.convert-button {
+    background: #388e3c;
+}
+
+body.dark-mode button.convert-button:hover {
+    background: #2e7d32;
+}
+
+body.dark-mode .footer {
+    color: #aaa;
+}
+
+/* ====== BASE ====== */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column; /* conteúdo + rodapé em coluna */
+    min-height: 100vh;
+    margin: 0;
+    padding: 1rem;
+}
+
+.main-content {
+    flex: 1; /* empurra o rodapé para baixo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 700px;   /* Desktop largo */
+    min-width: 300px;   /* mínimo */
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    color: #39635e;
+}
+
+/* ====== FORM ====== */
+label {
+    display: block;
+    margin-top: 1rem;
+    text-align: left;
+    font-weight: bold;
+    color: #39635e;
+}
+
+select,
+input,
+button {
+    margin-top: 0.3rem;
+    margin-bottom: 0.8rem;
+    padding: 0.6rem;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #39635e;
+    border-radius: 6px;
+    box-sizing: border-box;
+    cursor: pointer;
+    appearance: none;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+    transform: scale(1.05);
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+/* ====== RESULTADO ====== */
+.result-box {
+    margin-top: 1.5rem;
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    color: #39635e;
+    font-size: 18px;
+}
+
+/* Animação de slide + fade */
+@keyframes slideFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.result-box.animate {
+    animation: slideFadeIn 0.5s ease-out;
+}
+
+.currency-display {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.currency-img {
+    width: 48px;
+    height: 48px;
+}
+
+/* ====== RESPONSIVIDADE ====== */
+.currency-selectors {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.currency-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem;
+        max-width: 90%;
+    }
+
+    .currency-selectors {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 0.5rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    select,
+    input,
+    button {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    .currency-img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .currency-selectors {
+        gap: 0.3rem;
+    }
+}
+
+/* ====== RODAPÉ ====== */
+.footer {
+    padding: 0.8rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 1rem;
+}
+
+
+

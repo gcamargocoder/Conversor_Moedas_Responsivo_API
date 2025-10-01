@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Moedas em Tempo Real</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Conteúdo principal centralizado -->
+  <main class="main-content" role="main">
+    <div class="container">
+      <h2>Conversor de Moedas</h2>
+
+      <!-- Botão de tema -->
+      <div class="theme-toggle">
+        <button id="theme-button" aria-label="Alternar tema">🌙</button>
+      </div>
+
+      <!-- Caixa principal do conversor -->
+      <div class="converter-box">
+
+        <!-- Entrada de valor -->
+        <input type="number" class="input-currency" placeholder="Digite o valor"
+          aria-label="Digite o valor a ser convertido" />
+
+        <!-- Seletores de moedas -->
+        <div class="currency-selectors">
+          <div class="currency-group">
+            <label for="currency-from">De:</label>
+            <select id="currency-from" class="currency-from-select" aria-label="Moeda de origem">
+              <option value="real">Real Brasileiro</option>
+              <option value="dolar">Dólar Americano</option>
+              <option value="euro">Euro Europeu</option>
+              <option value="guarani">Guarani Paraguaio</option>
+              <option value="peso">Peso Argentino</option>
+              <option value="bitcoin">Bitcoin Crypto</option>
+            </select>
+          </div>
+
+          <div class="currency-group">
+            <label for="currency-to">Para:</label>
+            <select id="currency-to" class="currency-to-select" aria-label="Moeda de destino">
+              <option value="dolar">Dólar Americano</option>
+              <option value="euro">Euro Europeu</option>
+              <option value="guarani">Guarani Paraguaio</option>
+              <option value="peso">Peso Argentino</option>
+              <option value="bitcoin">Bitcoin Crypto</option>
+              <option value="real">Real Brasileiro</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Botão -->
+        <button class="convert-button">Converter</button>
+
+        <!-- Resultado -->
+        <div class="result-box">
+          <p><strong>Valor de origem:</strong> <span class="currency-value-to-convert">--</span></p>
+          <p><strong>Convertido para:</strong> <span class="currency-value">--</span></p>
+          <div class="currency-display">
+            <img class="currency-img" src="./assets/Real.png" alt="Moeda de destino" />
+            <span id="currency-name">Moeda</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Rodapé fixado próximo ao conteúdo -->
+  <footer class="footer">
+    <p><small>Desenvolvido por <strong>gcamargocoder</strong> © 2025</small></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
