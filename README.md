@@ -12,7 +12,7 @@
   <a href="#house-about-the-project">About</a> •
   <a href="#computer-technologies">Technologies</a> •
   <a href="#-layout">Layout</a> •
-  <a href="#-author">Author</a>
+  <a href="#author">Author</a>
 </p>
 
 ---
