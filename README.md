@@ -12,7 +12,7 @@
   <a href="#house-about-the-project">About</a> •
   <a href="#computer-technologies">Technologies</a> •
   <a href="#-layout">Layout</a> •
-  <a href="#rocket-getting-started">Getting Started</a>
+  <a href="#-author">Author</a>
 </p>
 
 ---
@@ -66,14 +66,11 @@ It uses the **AwesomeAPI** to fetch real-time exchange rates and allows conversi
 
 ---
 
-## :rocket: Getting Started
+## 👨‍💻 Author
 
-Clone the repository and open the project in your browser:
+Made with ♥ by **Gilson Camargo** 🚀  
 
-```bash
-# Clone repository
-git clone https://github.com/gcamargocoder/Conversor_Moedas_Responsivo_API.git
+🔗 [LinkedIn](https://www.linkedin.com/in/gilcamargo/) | 🔗 [GitHub](https://github.com/gcamargocoder)
 
-# Open index.html in your browser
 
 
