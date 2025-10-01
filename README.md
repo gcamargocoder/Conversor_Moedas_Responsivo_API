@@ -17,6 +17,12 @@
 
 ---
 
+## 🌐 Live Demo
+
+👉 [**Click here to try the project online**](https://gcamargocoder.github.io/Conversor_Moedas_Responsivo_API/)  
+
+---
+
 ## :house: About the project
 
 This project is a **responsive currency converter** built with **HTML, CSS, and JavaScript**.  
@@ -69,4 +75,5 @@ Clone the repository and open the project in your browser:
 git clone https://github.com/gcamargocoder/Conversor_Moedas_Responsivo_API.git
 
 # Open index.html in your browser
+
 
