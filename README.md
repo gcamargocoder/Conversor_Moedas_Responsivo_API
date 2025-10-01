@@ -75,6 +75,12 @@ This project demonstrates my ability to build **interactive, dynamic, and respon
 <a name="author"></a>
 ## 👨‍💻 Author
 
+🚀 Towards new skills! 
+
+"Every skill you acquire today is the door that opens to tomorrow's opportunities."
+
 Made with ♥ by **Gilson Camargo** 🚀  
 
-🔗 [LinkedIn](https://www.linkedin.com/in/gilcamargo/) | 🔗 [GitHub](https://github.com/gcamargocoder)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gilcamargo/)
+[![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)](https://github.com/gcamargocoder)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:gcamargocoder@gmail.com)
