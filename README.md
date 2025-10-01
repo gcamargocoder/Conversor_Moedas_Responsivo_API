@@ -26,21 +26,24 @@
 <a name="about"></a>
 ## :house: About the project
 
-This project is a **responsive currency converter** built with **HTML, CSS, and JavaScript**.  
-It uses the **AwesomeAPI** to fetch real-time exchange rates and allows conversions between:  
 
-- 🇧🇷 Real Brasileiro (BRL)  
-- 🇺🇸 Dólar Americano (USD)  
-- 🇪🇺 Euro (EUR)  
-- 🇦🇷 Peso Argentino (ARS)  
-- 🇵🇾 Guarani Paraguaio (PYG)  
-- ₿ Bitcoin (BTC)  
+The **Responsive Currency Converter** is a **web application** developed to practice and demonstrate my skills in **Front-End development** using **HTML, CSS, and JavaScript**.  
+It consumes real-time data from the **AwesomeAPI** to provide accurate and up-to-date currency exchange rates.  
 
-✨ **Features:**
-- 100% responsive (Desktop, Tablet, Mobile)  
-- Dark/Light mode toggle  
-- Real-time exchange rates  
-- Smooth animations  
+✨ **Main Features:**
+- Convert between multiple currencies: BRL, USD, EUR, ARS, PYG, and BTC  
+- 100% **responsive design**, adapting to desktop, tablet, and mobile  
+- **Dark/Light mode** for better accessibility and user experience  
+- Smooth animations for a modern UI  
+- Real-time exchange rates with **API integration**  
+
+🚀 **What I learned and applied in this project:**
+- Working with **asynchronous requests** (`fetch API`) and JSON data  
+- Applying **responsive design** concepts (Flexbox, Media Queries)  
+- Implementing **clean and maintainable code structure**  
+- Creating a project focused on **user experience and usability**  
+
+This project demonstrates my ability to build **interactive, dynamic, and responsive applications**, connecting design and functionality to deliver a professional web solution.
 
 ---
 
