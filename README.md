@@ -50,7 +50,7 @@ It uses the **AwesomeAPI** to fetch real-time exchange rates and allows conversi
 <p align="left">
   <img alt="HTML5" src="https://github.com/gcamargocoder/03_Projeto_PETSHOP_RESPONSIVA_26-08-25/blob/main/img/html.png?raw=true" width="50px"/>
   <img alt="CSS3" src="https://github.com/gcamargocoder/03_Projeto_PETSHOP_RESPONSIVA_26-08-25/blob/main/img/css-3.png?raw=true" width="50px"/>
-  <img alt="JavaScript" src="https://github.com/gcamargocoder/Conversor_Moedas_Responsivo_API/blob/master/assets/icon_javascript.png?raw=true" width="50px"/>
+  <img alt="JavaScript" src="https://github.com/gcamargocoder/Conversor_Moedas_Responsivo_API/blob/master/assets/icon_javascript.png?raw=true" width="53px"/>
 </p>
 
 ---
