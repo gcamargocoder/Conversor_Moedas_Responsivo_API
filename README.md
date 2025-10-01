@@ -9,9 +9,9 @@
 <h2 align="center">Currency Converter</h2>
 
 <p align="center">
-  <a href="#house-about-the-project">About</a> •
-  <a href="#computer-technologies">Technologies</a> •
-  <a href="#-layout">Layout</a> •
+  <a href="#about">About</a> •
+  <a href="#technologies">Technologies</a> •
+  <a href="#layout">Layout</a> •
   <a href="#author">Author</a>
 </p>
 
@@ -23,6 +23,7 @@
 
 ---
 
+<a name="about"></a>
 ## :house: About the project
 
 This project is a **responsive currency converter** built with **HTML, CSS, and JavaScript**.  
@@ -43,6 +44,7 @@ It uses the **AwesomeAPI** to fetch real-time exchange rates and allows conversi
 
 ---
 
+<a name="technologies"></a>
 ## :computer: Technologies
 
 <p align="left">
@@ -53,6 +55,7 @@ It uses the **AwesomeAPI** to fetch real-time exchange rates and allows conversi
 
 ---
 
+<a name="layout"></a>
 ## 📱💻 Layout
 
 <p align="center">
@@ -66,7 +69,9 @@ It uses the **AwesomeAPI** to fetch real-time exchange rates and allows conversi
 
 ---
 
-## 👨‍💻 Author <a name="author"></a>
+<a name="author"></a>
+## 👨‍💻 Author
 
 Made with ♥ by **Gilson Camargo** 🚀  
+
 🔗 [LinkedIn](https://www.linkedin.com/in/gilcamargo/) | 🔗 [GitHub](https://github.com/gcamargocoder)
