@@ -66,7 +66,7 @@ It uses the **AwesomeAPI** to fetch real-time exchange rates and allows conversi
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author <a name="author"></a>
 
 Made with ♥ by **Gilson Camargo** 🚀  
 🔗 [LinkedIn](https://www.linkedin.com/in/gilcamargo/) | 🔗 [GitHub](https://github.com/gcamargocoder)
